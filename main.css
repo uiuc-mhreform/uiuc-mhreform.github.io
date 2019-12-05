@@ -2,11 +2,25 @@
 COLOR GLOSSARY:
 
 FONT GLOSSARY:
+Roboto: https://fonts.google.com/specimen/Roboto
+Nixie One: https://fonts.google.com/specimen/Nixie+One
+Source Sans Pro: https://fonts.google.com/specimen/Source+Sans+Pro
 
 */
 
-h1, h2, h3 {
+h1 {
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;;
+}
+
+p, a {
+  font-family: 'Nixie One', sans-serif;
+  font-weight: bold;
 }
 
 div {
