@@ -1,0 +1,48 @@
+/*
+COLOR GLOSSARY:
+
+FONT GLOSSARY:
+
+*/
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+
+  width: 75vw;
+  margin: 20px auto;
+  padding: 5px;
+
+  border: 1px solid black;
+}
+
+div:not[.links] p {
+  margin: 0 auto;
+  width: 75%;
+  text-align: justify;
+}
+
+.content {
+  border: none;
+}
+
+.contact-us {
+  width: 40vw;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border: none;
+}
+
+.links p {
+  width: unset;
+}
