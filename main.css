@@ -23,7 +23,7 @@ html {
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Abril Fatface', sans-serif;
   color: #c9eccb; /* sea glass */
 }
 
@@ -64,7 +64,7 @@ div {
 }
 
 .who-we-are > p {
-  width: 75%;
+  margin: 5px 10px;
   text-align: justify;
 }
 
