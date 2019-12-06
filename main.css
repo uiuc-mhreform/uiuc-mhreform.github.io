@@ -23,15 +23,18 @@ html {
 }
 
 h1 {
-  font-family: 'Abril Fatface', sans-serif;
-  font-size: 42px;
-  letter-spacing: 2px;
+  font-family: 'Alfa Slab One', sans-serif;
+  font-weight: lighter;
+  font-size: 48px;
+  letter-spacing: 3px;
   color: #c9eccb; /* sea glass */
+  margin-bottom: 0;
 }
 
 h3 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Solway', sans-serif;
   color: #c9eccb; /* sea glass */
+  font-size: 26px;
 }
 
 h2 {
@@ -70,7 +73,7 @@ div {
 
 .who-we-are > p {
   text-align: justify;
-  margin: 5px;
+  margin: 5px 35px;
 }
 
 .links {
@@ -92,7 +95,7 @@ div {
 
 @media (min-width: 450px) {
   div {
-    width: 75vw;
+    width: 65vw;
   }
 
   .contact-us {
