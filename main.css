@@ -24,6 +24,8 @@ html {
 
 h1 {
   font-family: 'Abril Fatface', sans-serif;
+  font-size: 42px;
+  letter-spacing: 2px;
   color: #c9eccb; /* sea glass */
 }
 
@@ -43,6 +45,10 @@ p, a {
   color: #204f6f; /* gloomy london */
 }
 
+p {
+  margin: 5px 10px;
+}
+
 a {
   padding: 10px 15px;
   background: #c9eccb; /* sea glass */
@@ -55,17 +61,16 @@ div {
 
   width: 75vw;
   margin: 20px auto;
-  padding: 5px;
 }
 
 .section {
-  background: #78dd90; /* peas in a pod */
-  opacity: .8;
+  background: rgba(120, 221, 144, .8);
+  padding: 20px 0;
 }
 
 .who-we-are > p {
-  margin: 5px 10px;
   text-align: justify;
+  margin: 5px;
 }
 
 .contact-us {
@@ -83,4 +88,8 @@ div {
 
 .links p {
   width: unset;
+}
+
+.content {
+  padding: 15px;
 }
