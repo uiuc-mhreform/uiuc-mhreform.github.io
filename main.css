@@ -59,8 +59,18 @@ div {
   display: flex;
   flex-direction: column;
 
-  width: 75vw;
+  width: 95vw;
   margin: 20px auto;
+}
+
+@media (min-width: 450px) {
+  div {
+    width: 75vw;
+  }
+
+  .contact-us {
+    width: 40vw;
+  }
 }
 
 .section {
@@ -71,10 +81,6 @@ div {
 .who-we-are > p {
   text-align: justify;
   margin: 5px;
-}
-
-.contact-us {
-  width: 40vw;
 }
 
 .links {
