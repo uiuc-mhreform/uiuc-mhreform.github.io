@@ -99,3 +99,7 @@ div {
 .links p {
   width: unset;
 }
+
+.content {
+  margin: 0;
+}
