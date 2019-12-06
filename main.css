@@ -71,6 +71,10 @@ div {
   .contact-us {
     width: 40vw;
   }
+
+  .content {
+    padding: 15px;
+  }
 }
 
 .section {
@@ -94,8 +98,4 @@ div {
 
 .links p {
   width: unset;
-}
-
-.content {
-  padding: 15px;
 }
