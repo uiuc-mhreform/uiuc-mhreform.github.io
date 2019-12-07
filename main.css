@@ -18,6 +18,10 @@ html {
   background: linear-gradient(180deg, rgba(32,79,111,1) 0%, rgba(51,152,153,1) 100%);
 }
 
+body {
+  min-height: 100vh;
+}
+
 * {
   text-align: center;
 }
@@ -46,6 +50,10 @@ p, a {
   font-family: 'Nixie One', sans-serif;
   font-weight: bold;
   color: #204f6f; /* gloomy london */
+}
+
+.construction {
+  color: #c9eccb; /* sea glass */
 }
 
 p {
